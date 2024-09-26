@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 
-import "./styles/normalize.css"
-import "./styles/skeleton.css"
-import "./styles/globals.css";
-
+import "../styles/normalize.css"
+import "../styles/skeleton.css"
+import "../styles/globals.css";
 
 export const metadata: Metadata = {
     title: "Create Next App",
