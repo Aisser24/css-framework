@@ -10,6 +10,7 @@
 
 /* Table of contents
 ––––––––––––––––––––––––––––––––––––––––––––––––––
+- Colors / Variables
 - Grid
 - Base Styles
 - Typography
@@ -24,6 +25,15 @@
 - Clearing
 - Media Queries
 */
+
+/* Colors / Variables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+:root {
+  --primary: #FFA755;
+  --text: #FBF8F6;
+  --background: #19130E;
+  --background-800: #33281e;
+}
 
 
 /* Grid

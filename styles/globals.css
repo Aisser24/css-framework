@@ -1,0 +1,47 @@
+body {
+    background-color: var(--background);
+    color: var(--text);
+}
+
+/* Navbar
+______________________________*/
+nav {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    border-bottom: var(--primary) 2px solid;
+}
+
+.ham-menu {
+    /* display: none; */
+    background-color: var(--background-800);
+    padding: 10rem 3rem;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(-100%);
+
+    &.active {
+        transform: translateY(0);
+    }
+}
+
+.ham-menu ul {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    list-style: none;
+}
+
+.active {
+    display: block;
+}
