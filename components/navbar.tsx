@@ -14,20 +14,20 @@ const Navbar = () => {
 
     return (
         <header>
-            <div className="container">
-                <nav className="twelve columns">
-                    <Image
-                        width={100}
-                        height={50}
-                        src={logo}
-                        alt="Apollo Club Logo"
-                        priority
-                        style={{
-                            zIndex: "100"
-                        }}
-                    />
+            <nav className="mobile">
+                <Image
+                    width={100}
+                    height={50}
+                    src={logo}
+                    alt="Apollo Club Logo"
+                    priority
+                    style={{
+                        zIndex: "100"
+                    }}
+                />
 
-                    {/* Mobile */}
+                {/* Mobile */}
+                <div className="ham">
                     <button 
                         className={`hamburger hamburger--squeeze ${menuOpen?"is-active":""}`} 
                         type="button" 
@@ -43,33 +43,84 @@ const Navbar = () => {
                             <span className="hamburger-inner"></span>
                         </span>
                     </button>
-                    <div 
-                        className={`ham-menu ${menuOpen?"active":""}`}
-                    >
-                        <ul>
-                            <li>
-                                <Link 
-                                    href="/"
-                                >
-                                    home
-                                </Link>
-                            </li>
-                            <li>
-                                <Link 
-                                    href="/beispielseite-1"
-                                >
-                                    Beispielseite 1
-                                </Link>
-                            </li>
-                            <li>
-                                <Link 
-                                    href="/beispielseite-2"
-                                >
-                                    Beispielseite 2
-                                </Link>
-                            </li>
-                        </ul>
-                    </div>
+                </div>
+                <div 
+                    className={`ham-menu ${menuOpen?"active":""}`}
+                >
+                    <ul>
+                        <li>
+                            <Link 
+                                href="/"
+                                className="menu-text"
+                                onClick={handleMenuClick}
+                            >
+                                Home
+                            </Link>
+                        </li>
+                        <li>
+                            <Link 
+                                href="/beispielseite-1"
+                                className="menu-text"
+                                onClick={handleMenuClick}
+                            >
+                                Beispielseite 1
+                            </Link>
+                        </li>
+                        <li>
+                            <Link 
+                                href="/beispielseite-2"
+                                className="menu-text"
+                                onClick={handleMenuClick}
+                            >
+                                Beispielseite 2
+                            </Link>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+                    
+            <div className="container">
+                <nav className="desktop">
+                    <Image
+                        width={100}
+                        height={50}
+                        src={logo}
+                        alt="Apollo Club Logo"
+                        priority
+                        style={{
+                            zIndex: "100"
+                        }}
+                    />
+                    
+                    {/* Desktop */}
+                    
+                    <ul className="nav-desktop">
+                        <li>
+                            <Link 
+                                href="/"
+                                className="menu-text"
+                            >
+                                Home
+                            </Link>
+                        </li>
+                        <li>
+                            <Link 
+                                href="/beispielseite-1"
+                                className="menu-text"
+                            >
+                                Beispielseite 1
+                            </Link>
+                        </li>
+                        <li>
+                            <Link 
+                                href="/beispielseite-2"
+                                className="menu-text"
+                            >
+                                Beispielseite 2
+                            </Link>
+                        </li>
+                    </ul>
+                    
                 </nav>
             </div>
         </header>
