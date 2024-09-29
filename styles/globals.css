@@ -222,9 +222,8 @@ _________________________________ */
 }
 
 .front:hover, .front.active {
-    transform: scale(1.1);
+    transform: scale(1.1) rotate(2deg);
 }
-
 .dark {
     filter: brightness(0.5);
     transition: all 0.3s ease-in-out;
@@ -232,7 +231,7 @@ _________________________________ */
 
 .dark:hover, .dark.active {
     filter: brightness(1);
-    transform: scale(1.1);
+    transform: scale(1.1) rotate(-2deg);
     z-index: 100;
 }
 
