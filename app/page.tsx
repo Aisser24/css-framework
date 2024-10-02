@@ -8,6 +8,7 @@ import tokyoGhostFront from "@/images/tokyo-ghost/tokyo-ghost-front.webp"
 import tokyoGhostPage from "@/images/tokyo-ghost/tokyo-ghost-page.webp"
 import tokyoGhostBack from "@/images/tokyo-ghost/tokyo-ghost-back.webp"
 import CreatorsCorner from "@/components/creatorsCorner"
+import Footer from "@/components/footer"
 
 const Page = () => {
     return (
@@ -48,8 +49,8 @@ const Page = () => {
                 details={["Dave McCaig - Colorist", "Dustin Nguyen - Artist, Cover", "Sean Murphy - Writer", "Steve Wands - Letterer"]}
                 imgSide="r"
             />
-            <CreatorsCorner 
-            />
+            <CreatorsCorner/>
+            <Footer/>
         </>
     )
 }

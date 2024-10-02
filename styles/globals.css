@@ -390,3 +390,47 @@ _________________________________ */
         margin-top: 20px;
     }
 }
+
+/*Footer
+_________________________________ */
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-list a {
+    text-decoration: none;
+}
+
+.footer-heading {
+    border-bottom: var(--primary) 2px solid;
+}
+
+@media (min-width: 800px) {
+    .footer-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer-container h3 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .footer-container h3 {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .footer-container h3 {
+        font-size: 60px;
+    }
+}
