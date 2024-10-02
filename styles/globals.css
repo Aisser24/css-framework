@@ -113,7 +113,7 @@ ______________________________*/
     /* background-image: url("../images/Hero_BG.webp");
     background-size: cover;
     background-position: center; */
-    height: calc(100vh - 92px);
+    min-height: calc(100vh - 92px);
     display: flex;
     align-items: center;
 }

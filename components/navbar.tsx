@@ -60,7 +60,7 @@ const Navbar = () => {
                         </li>
                         <li>
                             <Link 
-                                href="/beispielseite-1"
+                                href="/beispielseite1"
                                 className="menu-text"
                                 onClick={handleMenuClick}
                             >
@@ -69,7 +69,7 @@ const Navbar = () => {
                         </li>
                         <li>
                             <Link 
-                                href="/beispielseite-2"
+                                href="/beispielseite2"
                                 className="menu-text"
                                 onClick={handleMenuClick}
                             >
@@ -106,7 +106,7 @@ const Navbar = () => {
                         </li>
                         <li>
                             <Link 
-                                href="/beispielseite-1"
+                                href="/beispielseite1"
                                 className="menu-text"
                             >
                                 Beispielseite 1
@@ -114,7 +114,7 @@ const Navbar = () => {
                         </li>
                         <li>
                             <Link 
-                                href="/beispielseite-2"
+                                href="/beispielseite2"
                                 className="menu-text"
                             >
                                 Beispielseite 2
