@@ -1,12 +1,13 @@
 import Hero from "@/components/hero"
 import Banner from "@/components/banner"
 import Offer from "@/components/offer"
-import bitterRootFront from "@/images/bitter-root/bitter-root-front.png"
-import bitterRootPage from "@/images/bitter-root/bitter-root-page.png"
-import bitterRootBack from "@/images/bitter-root/bitter-root-back.png"
-import tokyoGhostFront from "@/images/tokyo-ghost/tokyo-ghost-front.png"
-import tokyoGhostPage from "@/images/tokyo-ghost/tokyo-ghost-page.png"
-import tokyoGhostBack from "@/images/tokyo-ghost/tokyo-ghost-back.png"
+import bitterRootFront from "@/images/bitter-root/bitter-root-front.webp"
+import bitterRootPage from "@/images/bitter-root/bitter-root-page.webp"
+import bitterRootBack from "@/images/bitter-root/bitter-root-back.webp"
+import tokyoGhostFront from "@/images/tokyo-ghost/tokyo-ghost-front.webp"
+import tokyoGhostPage from "@/images/tokyo-ghost/tokyo-ghost-page.webp"
+import tokyoGhostBack from "@/images/tokyo-ghost/tokyo-ghost-back.webp"
+import CreatorsCorner from "@/components/creatorsCorner"
 
 const Page = () => {
     return (
@@ -25,7 +26,7 @@ const Page = () => {
                 title="BITTER ROOT"
                 // tags={["Supernatural", "Historical Fiction", "Horror"]}
                 tags={[{ text: "Supernatural", color: "#098000" }, { text: "Historical Fiction", color: "#801700" }, { text: "Horror", color: "#001580" }]}
-                content={`Once known as the greatest monster hunters of all time, the Sangerye family specialized in curing the souls of those infected by hate. But those days are fading. A terrible tragedy has claimed most of the family, leaving the surviving cousins divided between by the desire to cure monsters or to kill them. Now, though, there’s a new breed of monster loose on the streets of Harlem, and the Sangerye family must either come together or watch the human race fall to untold evil.Collects BITTER ROOT #1-5.`}
+                content={`Once known as the greatest monster hunters of all time, the Sangerye family specialized in curing the souls of those infected by hate. But those days are fading. A terrible tragedy has claimed most of the family, leaving the surviving cousins divided between by the desire to cure monsters or to kill them. Now, though, there’s a new breed of monster loose on the streets of Harlem, and the Sangerye family must either come together or watch the human race fall to untold evil. Collects BITTER ROOT #1-5.`}
                 price={16.99}
                 details={["Charissa Curiel - Cover", "Chase Conley - Cover", "Chuck Brown - Writer", "David Walker - Writer", "Hassan Otsmane-Elhaou - Leterer", "John Jennings - Other", "Sanford Greene - Artist, Cover", "Shelly Bond - Editor", "Sofie Dodgson - Colorist"]}
                 imgSide="l"
@@ -46,6 +47,8 @@ const Page = () => {
                 price={29.99}
                 details={["Dave McCaig - Colorist", "Dustin Nguyen - Artist, Cover", "Sean Murphy - Writer", "Steve Wands - Letterer"]}
                 imgSide="r"
+            />
+            <CreatorsCorner 
             />
         </>
     )

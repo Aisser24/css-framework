@@ -32,7 +32,7 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 100%;
 }
 
 header ul {
@@ -110,9 +110,12 @@ header li {
 ______________________________*/
 .hero {
     padding-top: 92px;
-    background-image: url("../images/Hero_BG.png");
+    /* background-image: url("../images/Hero_BG.webp");
     background-size: cover;
-    background-position: center;
+    background-position: center; */
+    height: calc(100vh - 92px);
+    display: flex;
+    align-items: center;
 }
 
 .hero .content {
@@ -161,15 +164,55 @@ h2.subtitle {
     color: var(--text);
 }
 
+.card-heading {
+    font-family: "Vazirmatn";
+    font-size: 4.5vw;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.card-text {
+    font-family: "Vazirmatn";
+    font-size: 3vw;
+    margin-bottom: 0;
+}
+
 @media (min-width: 800px) {
     h2.subtitle {
         font-size: 65px;
+    }
+
+    .card-heading {
+        font-size: 2vw;
+    }
+
+    .card-text {
+        font-size: 1.2vw;
     }
 }
 
 @media (min-width: 1200px) {
     h2.subtitle {
         font-size: 70px;
+    }
+
+    .card-heading {
+        font-size: 1.2vw;
+    }
+
+    .card-text {
+        font-size: .8vw;
+        line-height: normal;
+    }
+}
+
+@media (min-width: 1520px) {
+    .card-heading {
+        font-size: 20px;
+    }
+
+    .card-text {
+        font-size: 14px;
     }
 }
 
@@ -188,7 +231,7 @@ _________________________________ */
 }
 
 .banner.r {
-    background-image: linear-gradient(to left, var(--background), rgba(0, 0, 0, 0.5)), url("../images/banner-bg.png");
+    background-image: linear-gradient(to left, var(--background), rgba(0, 0, 0, 0.5)), url("../images/banner-bg.webp");
     background-size: cover;
     background-position: center;
     background-size: cover;
@@ -196,7 +239,7 @@ _________________________________ */
 }
 
 .banner.l {
-    background-image: linear-gradient(to right, var(--background), rgba(0, 0, 0, 0.5)), url("../images/banner-bg.png");
+    background-image: linear-gradient(to right, var(--background), rgba(0, 0, 0, 0.5)), url("../images/banner-bg.webp");
     background-size: cover;
     background-position: center;
     background-size: cover;
@@ -286,4 +329,64 @@ _________________________________ */
 
 .details-container div {
     margin-right: 20px;
+}
+
+
+/*Creators Corner
+_________________________________ */
+.creators-corner-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .9)), url("../images/creators-corner-source.webp");
+    background-size: cover;
+    background-position: center;
+    margin-top: 40px;
+}
+
+.creators-corner {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card {
+    background-color: var(--background-800);
+    margin-top: 20px;
+    position: relative;
+    text-decoration: none;
+    line-height: normal;
+}
+
+.card:hover::after {
+    content: "Read More";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text);
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: inherit;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.cc-tag {
+    font-size: 15px;
+}
+
+
+@media (min-width: 800px) {
+    .creators-corner {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .card {
+        margin-top: 0;
+    }
+
+    .cc-r {
+        margin-top: 20px;
+    }
 }

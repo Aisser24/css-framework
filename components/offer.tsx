@@ -104,15 +104,18 @@ const Offer = ({
 
                             {/* Buttons */}
                             <div className='indicator-container'>
-                                <button 
+                                <button
+                                    aria-label="selector-page-image"
                                     className={`indicator ${active == 1 ? "active" : ""}`}
                                     onClick={() => handleActivation(1)} 
                                 ></button>
-                                <button 
+                                <button
+                                    aria-label="selector-front-image"
                                     className={`indicator ${active == 2 ? "active" : ""}`}
                                     onClick={() => handleActivation(2)}
                                 ></button>
-                                <button 
+                                <button
+                                    aria-label="selector-back-image"
                                     className={`indicator ${active == 3 ? "active" : ""}`}
                                     onClick={() => handleActivation(3)}
                                 ></button>
@@ -253,15 +256,18 @@ const Offer = ({
 
                             {/* Buttons */}
                             <div className='indicator-container'>
-                                <button 
+                                <button
+                                    aria-label="selector-page-image"
                                     className={`indicator ${active == 1 ? "active" : ""}`}
                                     onClick={() => handleActivation(1)} 
                                 ></button>
-                                <button 
+                                <button
+                                    aria-label="selector-front-image"
                                     className={`indicator ${active == 2 ? "active" : ""}`}
                                     onClick={() => handleActivation(2)}
                                 ></button>
-                                <button 
+                                <button
+                                    aria-label="selector-back-image"
                                     className={`indicator ${active == 3 ? "active" : ""}`}
                                     onClick={() => handleActivation(3)}
                                 ></button>
