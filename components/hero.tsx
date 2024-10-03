@@ -57,16 +57,20 @@ const Hero = () => {
                         }}>
                             <Button
                                 isPrimary={true}
+                                ariaLabel="Shop"
                                 style={{
                                     width: "50%"
                                 }}
+                                href="/"
                             >
                                 Shop
                             </Button>
                             <Button
+                                ariaLabel="Read more"
                                 style={{
                                     width: "50%"
                                 }}
+                                href="/"
                             >
                                 Read more
                             </Button>

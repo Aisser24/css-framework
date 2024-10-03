@@ -296,7 +296,12 @@ _________________________________ */
     border: none;
 }
 
-.indicator:hover {
+.indicator:active, .indicator:focus {
+    outline: 2px solid var(--primary);
+    outline-offset: 4px;
+}
+
+.indicator:hover, .indicator:focus, .indicator:active {
     background-color: var(--primary-200);
 }
 
@@ -411,6 +416,22 @@ _________________________________ */
 
 .footer-heading {
     border-bottom: var(--primary) 2px solid;
+}
+
+.footerBtn {
+    display: block;
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.footerBtn:hover, .footerBtn:focus {
+    background-color: var(--primary);
+    color: var(--background);
+}
+
+.footer-social:hover, .footer-social:focus {
+    filter: brightness(0) saturate(100%) invert(88%) sepia(14%) saturate(6622%) hue-rotate(319deg) brightness(102%) contrast(106%);
+    outline: none;
 }
 
 @media (min-width: 800px) {

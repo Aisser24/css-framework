@@ -15,7 +15,7 @@ const Navbar = () => {
     return (
         <header style={{zIndex: "1000"}}>
             <nav className="mobile">
-                <Link href={"/"}>
+                <Link href={"/"} aria-label="Home (via Logo)">
                     <Image
                         width={100}
                         height={50}
@@ -56,6 +56,7 @@ const Navbar = () => {
                                 href="/"
                                 className="menu-text"
                                 onClick={handleMenuClick}
+                                aria-label="Home"
                             >
                                 Home
                             </Link>
@@ -65,6 +66,7 @@ const Navbar = () => {
                                 href="/beispielseite1"
                                 className="menu-text"
                                 onClick={handleMenuClick}
+                                aria-label="Beispielseite 1"
                             >
                                 Beispielseite 1
                             </Link>
@@ -74,6 +76,7 @@ const Navbar = () => {
                                 href="/beispielseite2"
                                 className="menu-text"
                                 onClick={handleMenuClick}
+                                aria-label="Beispielseite 2"
                             >
                                 Beispielseite 2
                             </Link>
@@ -84,7 +87,7 @@ const Navbar = () => {
                     
             <div className="container">
                 <nav className="desktop">
-                    <Link href={"/"}>
+                    <Link href={"/"} aria-label="Home (via Logo)">
                         <Image
                             width={100}
                             height={50}
@@ -104,6 +107,7 @@ const Navbar = () => {
                             <Link 
                                 href="/"
                                 className="menu-text"
+                                aria-label="Home"
                             >
                                 Home
                             </Link>
@@ -112,6 +116,7 @@ const Navbar = () => {
                             <Link 
                                 href="/beispielseite1"
                                 className="menu-text"
+                                aria-label="Beispielseite 1"
                             >
                                 Beispielseite 1
                             </Link>
@@ -120,6 +125,7 @@ const Navbar = () => {
                             <Link 
                                 href="/beispielseite2"
                                 className="menu-text"
+                                aria-label="Beispielseite 2"
                             >
                                 Beispielseite 2
                             </Link>

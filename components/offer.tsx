@@ -69,6 +69,7 @@ const Offer = ({
                                         height: "auto",
                                         zIndex: "10"
                                     }}
+                                    title={`${title} - Front`}
                                 />
                                 <Image 
                                     src={backImg}
@@ -84,6 +85,7 @@ const Offer = ({
                                         position: "absolute",
                                         right: 0
                                     }}
+                                    title={`${title} - Back`}
                                 />
                                 <Image 
                                     src={pageImg}
@@ -99,6 +101,7 @@ const Offer = ({
                                         position: "absolute",
                                         left: 0
                                     }}
+                                    title={`${title} - Page`}
                                 />
                             </div>
 
@@ -145,7 +148,7 @@ const Offer = ({
                                 <span style={{width: "40%", display: "inline-block", height: "auto"}} className='price'>
                                     {`$${price}`}
                                 </span>
-                                <Button isPrimary style={{width: "60%", margin: 0}}>
+                                <Button isPrimary style={{width: "60%", margin: 0}} ariaLabel='Buy' href='/'>
                                         Buy
                                 </Button>
                             </div>
@@ -190,7 +193,7 @@ const Offer = ({
                                 <span style={{width: "40%", display: "inline-block", height: "auto"}} className='price'>
                                     {`$${price}`}
                                 </span>
-                                <Button isPrimary style={{width: "60%", margin: 0}}>
+                                <Button isPrimary style={{width: "60%", margin: 0}} ariaLabel='Buy' href='/'>
                                         Buy
                                 </Button>
                             </div>
@@ -221,6 +224,7 @@ const Offer = ({
                                         height: "auto",
                                         zIndex: "10"
                                     }}
+                                    title={`${title} - Front`}
                                 />
                                 <Image 
                                     src={backImg}
@@ -236,6 +240,7 @@ const Offer = ({
                                         position: "absolute",
                                         right: 0
                                     }}
+                                    title={`${title} - Back`}
                                 />
                                 <Image 
                                     src={pageImg}
@@ -251,6 +256,7 @@ const Offer = ({
                                         position: "absolute",
                                         left: 0
                                     }}
+                                    title={`${title} - Page`}
                                 />
                             </div>
 

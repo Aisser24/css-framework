@@ -5,6 +5,7 @@ import facebook from '@/images/footer/facebook.svg'
 import instagram from '@/images/footer/instagram.svg'
 import youtube from '@/images/footer/youtube.svg'
 import tiktok from '@/images/footer/tiktok.svg'
+import Link from 'next/link'
 
 const Footer = () => {
     return (
@@ -23,11 +24,9 @@ const Footer = () => {
                         alt='Apollo Club - Logo'
                     />
                     <Button 
-                        style={{
-                            display: 'block',
-                            color: "var(--primary)",
-                            borderColor: "var(--primary)",
-                        }}
+                        className='footerBtn'
+                        ariaLabel='Donate now!'
+                        href='/'
                     >
                         Donate now!
                     </Button>
@@ -69,30 +68,38 @@ const Footer = () => {
                     display: 'flex',
                     gap: '15px',
                 }}>
-                    <Image 
-                        src={facebook}
-                        width={50}
-                        height={50}
-                        alt='Facebook Logo'
-                    />
-                    <Image 
-                        src={instagram}
-                        width={50}
-                        height={50}
-                        alt='Instagram Logo'
-                    />
-                    <Image 
-                        src={tiktok}
-                        width={50}
-                        height={50}
-                        alt='TikTok Logo'
-                    />
-                    <Image 
-                        src={youtube}
-                        width={50}
-                        height={50}
-                        alt='Youtube Logo'
-                    />
+                    <Link href="https://www.facebook.com" passHref className='footer-social' target='_blank'>
+                        <Image 
+                            src={facebook}
+                            width={50}
+                            height={50}
+                            alt='Facebook Logo'
+                        />
+                    </Link>
+                    <Link href="https://www.instagram.com" passHref className='footer-social' target='_blank'>
+                        <Image 
+                            src={instagram}
+                            width={50}
+                            height={50}
+                            alt='Instagram Logo'
+                        />
+                    </Link>
+                    <Link href="https://www.tiktok.com" passHref className='footer-social' target='_blank'>
+                        <Image 
+                            src={tiktok}
+                            width={50}
+                            height={50}
+                            alt='TikTok Logo'
+                        />
+                    </Link>
+                    <Link href="https://www.youtube.com" passHref className='footer-social' target='_blank'>
+                        <Image 
+                            src={youtube}
+                            width={50}
+                            height={50}
+                            alt='Youtube Logo'
+                        />
+                    </Link>
                 </div>
                 <p style={{marginBottom: 0, fontSize: "15px"}}>
                     © 2021 Apollo Club. All rights reserved.
