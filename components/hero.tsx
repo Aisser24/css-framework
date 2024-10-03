@@ -5,9 +5,16 @@ import Button from "./button"
 
 const Hero = () => {
     return (
-        <section className="hero">
+        <div className="hero">
             {/* BG-Image */}
-            <div id="hero-bg" style={{ position: "absolute", top: 0, width: "100%", height: "100%", overflow: "hidden" }}>
+            <div id="hero-bg" style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                bottom: 0,
+                right: 0,
+                height: "100%",
+            }}>
                 <Image 
                     src={Hero_BG}
                     alt="Background Image - Comics scattered around"
@@ -82,7 +89,7 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     )
 }
 

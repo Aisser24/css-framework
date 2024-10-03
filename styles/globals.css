@@ -114,8 +114,10 @@ ______________________________*/
     background-size: cover;
     background-position: center; */
     min-height: calc(100vh - 92px);
+    overflow: hidden;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .hero .content {
