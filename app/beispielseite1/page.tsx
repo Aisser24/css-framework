@@ -74,7 +74,7 @@ const Page = () => {
             <h2>Text-level elements</h2>
             <ul>
                 <li><a href="#">anchor link</a> &lt;a&gt;</li>
-                <li>abbreviation: <abbr title="'Syntactically">SASS</abbr> &lt;abbr&gt;</li>
+                <li>abbreviation: <abbr title="Syntactically">SASS</abbr> &lt;abbr&gt;</li>
                 <li>citation: <cite>A Study in Scarlet</cite> &lt;cite&gt;</li>
                 <li>Here’s the <code>&lt;code&gt;</code> element</li>
                 <li>deleted text: <del>Episodes I, II, III</del> &lt;del&gt;</li>
