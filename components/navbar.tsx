@@ -15,16 +15,18 @@ const Navbar = () => {
     return (
         <header style={{zIndex: "1000"}}>
             <nav className="mobile">
-                <Image
-                    width={100}
-                    height={50}
-                    src={logo}
-                    alt="Apollo Club Logo"
-                    priority
-                    style={{
-                        zIndex: "100"
-                    }}
-                />
+                <Link href={"/"}>
+                    <Image
+                        width={100}
+                        height={50}
+                        src={logo}
+                        alt="Apollo Club Logo"
+                        priority
+                        style={{
+                            zIndex: "100"
+                        }}
+                    />
+                </Link>
 
                 {/* Mobile */}
                 <div className="ham">
@@ -48,7 +50,7 @@ const Navbar = () => {
                 <div 
                     className={`ham-menu ${menuOpen?"active":""}`}
                 >
-                    <ul>
+                    <ul style={{display: menuOpen ? "flex" : "none"}}>
                         <li>
                             <Link 
                                 href="/"
@@ -82,16 +84,18 @@ const Navbar = () => {
                     
             <div className="container">
                 <nav className="desktop">
-                    <Image
-                        width={100}
-                        height={50}
-                        src={logo}
-                        alt="Apollo Club Logo"
-                        priority
-                        style={{
-                            zIndex: "100"
-                        }}
-                    />
+                    <Link href={"/"}>
+                        <Image
+                            width={100}
+                            height={50}
+                            src={logo}
+                            alt="Apollo Club Logo"
+                            priority
+                            style={{
+                                zIndex: "100"
+                            }}
+                        />
+                    </Link>
                     
                     {/* Desktop */}
                     
