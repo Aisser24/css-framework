@@ -13,7 +13,7 @@ const Navbar = () => {
     }
 
     return (
-        <header>
+        <header style={{zIndex: "1000"}}>
             <nav className="mobile">
                 <Image
                     width={100}
