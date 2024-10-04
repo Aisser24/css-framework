@@ -27,11 +27,17 @@ const Page = () => {
                 title="BITTER ROOT"
                 // tags={["Supernatural", "Historical Fiction", "Horror"]}
                 tags={[{ text: "Supernatural", color: "#098000" }, { text: "Historical Fiction", color: "#801700" }, { text: "Horror", color: "#001580" }]}
-                content={`Once known as the greatest monster hunters of all time, the Sangerye family specialized in curing the souls of those infected by hate. But those days are fading. A terrible tragedy has claimed most of the family, leaving the surviving cousins divided between by the desire to cure monsters or to kill them. Now, though, there’s a new breed of monster loose on the streets of Harlem, and the Sangerye family must either come together or watch the human race fall to untold evil. Collects BITTER ROOT #1-5.`}
                 price={16.99}
                 details={["Charissa Curiel - Cover", "Chase Conley - Cover", "Chuck Brown - Writer", "David Walker - Writer", "Hassan Otsmane-Elhaou - Leterer", "John Jennings - Other", "Sanford Greene - Artist, Cover", "Shelly Bond - Editor", "Sofie Dodgson - Colorist"]}
                 imgSide="l"
-            />
+            >
+                <p>
+                    Once known as the greatest monster hunters of all time, the Sangerye family specialized in curing the souls of those infected by hate. But those days are fading. A terrible tragedy has claimed most of the family, leaving the surviving cousins divided between by the desire to cure monsters or to kill them. Now, though, there&apos;s a new breed of monster loose on the streets of Harlem, and the Sangerye family must either come together or watch the human race fall to untold evil.
+                </p>
+                <p>
+                    Collects BITTER ROOT #1-5.
+                </p>
+            </Offer>
             <Banner direction="l">
                 <h2 style={{textAlign: "right"}}>Weekly Recommended</h2>
             </Banner>
@@ -44,11 +50,17 @@ const Page = () => {
                 pageImgAlt="Tokyo Ghost Comic - First Page"
                 title="TOKYO GHOST"
                 tags={[{ text: "Sci-Fi", color: "#008080" }, { text: "Dystopian", color: "#800080" }, { text: "Cyberpunk", color: "#800000" }]}
-                content={`The Isles of Los Angeles 2089: Humanity is addicted to technology. Getting a virtual buzz is the only thing left to live for, and gangsters run it all. And who do these gangsters turn to when they need their rule enforced? Constables Led Dent and Debbie Decay are about to be given a job that will force them out of the familiar squalor of LA and into the last tech-less country on Earth: The Garden Nation of Tokyo. Collects TOKYO GHOST #1-10.`}
                 price={29.99}
                 details={["Dave McCaig - Colorist", "Dustin Nguyen - Artist, Cover", "Sean Murphy - Writer", "Steve Wands - Letterer"]}
                 imgSide="r"
-            />
+            >
+                <p>
+                    The Isles of Los Angeles 2089: Humanity is addicted to technology. Getting a virtual buzz is the only thing left to live for, and gangsters run it all. And who do these gangsters turn to when they need their rule enforced? Constables Led Dent and Debbie Decay are about to be given a job that will force them out of the familiar squalor of LA and into the last tech-less country on Earth: The Garden Nation of Tokyo.
+                </p>
+                <p>
+                    Collects TOKYO GHOST #1-10.
+                </p>
+            </Offer>
             <CreatorsCorner/>
             <Footer/>
         </>
