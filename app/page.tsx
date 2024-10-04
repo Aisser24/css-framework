@@ -26,7 +26,7 @@ const Page = () => {
                 pageImgAlt="Bitter Root Comic - First Page"
                 title="BITTER ROOT"
                 // tags={["Supernatural", "Historical Fiction", "Horror"]}
-                tags={[{ text: "Supernatural", color: "#098000" }, { text: "Historical Fiction", color: "#801700" }, { text: "Horror", color: "#001580" }]}
+                tags={[{ text: "Supernatural", color: "#669966" }, { text: "Historical Fiction", color: "#6699CC" }, { text: "Horror", color: "#993300" }]}
                 content={`Once known as the greatest monster hunters of all time, the Sangerye family specialized in curing the souls of those infected by hate. But those days are fading. A terrible tragedy has claimed most of the family, leaving the surviving cousins divided between by the desire to cure monsters or to kill them. Now, though, there’s a new breed of monster loose on the streets of Harlem, and the Sangerye family must either come together or watch the human race fall to untold evil. Collects BITTER ROOT #1-5.`}
                 price={16.99}
                 details={["Charissa Curiel - Cover", "Chase Conley - Cover", "Chuck Brown - Writer", "David Walker - Writer", "Hassan Otsmane-Elhaou - Leterer", "John Jennings - Other", "Sanford Greene - Artist, Cover", "Shelly Bond - Editor", "Sofie Dodgson - Colorist"]}
