@@ -25,8 +25,7 @@ const Page = () => {
                 pageImg={bitterRootPage}
                 pageImgAlt="Bitter Root Comic - First Page"
                 title="BITTER ROOT"
-                // tags={["Supernatural", "Historical Fiction", "Horror"]}
-                tags={[{ text: "Supernatural", color: "#098000" }, { text: "Historical Fiction", color: "#801700" }, { text: "Horror", color: "#001580" }]}
+                tags={[{ text: "Supernatural", color: "#669966" }, { text: "Historical Fiction", color: "#6699CC" }, { text: "Horror", color: "#993300" }]}
                 price={16.99}
                 details={["Charissa Curiel - Cover", "Chase Conley - Cover", "Chuck Brown - Writer", "David Walker - Writer", "Hassan Otsmane-Elhaou - Leterer", "John Jennings - Other", "Sanford Greene - Artist, Cover", "Shelly Bond - Editor", "Sofie Dodgson - Colorist"]}
                 imgSide="l"
