@@ -14,10 +14,10 @@ const Offer = ({
     pageImgAlt,
     title,
     tags,
-    content,
     price,
     details,
-    imgSide
+    imgSide,
+    children
 }: 
     { 
         frontImg:StaticImport, 
@@ -28,10 +28,10 @@ const Offer = ({
         pageImgAlt:string,
         title:string,
         tags: { text: string, color: string }[],
-        content:string,
         price:number,
         details:string[],
-        imgSide:'l'|'r'
+        imgSide:'l'|'r',
+        children:React.ReactNode
     }) => {
     const [active, setActive] = React.useState(0);
 
@@ -138,9 +138,9 @@ const Offer = ({
                                     ))
                                 }
                             </div>
-                            <p style={{marginBottom: "20px"}}>
-                                {content}
-                            </p>
+                            <div style={{marginBottom: "20px"}}>
+                                {children}
+                            </div>
                             {/* Price */}
                             <div style={{
                                 display: "flex", alignItems: "center"
@@ -183,9 +183,9 @@ const Offer = ({
                                     ))
                                 }
                             </div>
-                            <p style={{marginBottom: "20px"}}>
-                                {content}
-                            </p>
+                            <div style={{marginBottom: "20px"}}>
+                                {children}
+                            </div>
                             {/* Price */}
                             <div style={{
                                 display: "flex", alignItems: "center"
