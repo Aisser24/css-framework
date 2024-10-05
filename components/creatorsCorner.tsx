@@ -30,7 +30,7 @@ const CreatorsCorner = () => {
             <div className='container creators-corner'>
                 <div className="row">
                     <h2>
-                        Creator's Corner
+                        Creator&apos;s Corner
                     </h2>
                 </div>
                 <div>
