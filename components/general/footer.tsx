@@ -1,6 +1,6 @@
 import Logo from '@/images/logo.svg'
 import Image from 'next/image'
-import Button from '@/components/button'
+import Button from '@/components/general/button'
 import facebook from '@/images/footer/facebook.svg'
 import instagram from '@/images/footer/instagram.svg'
 import youtube from '@/images/footer/youtube.svg'

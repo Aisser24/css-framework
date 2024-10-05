@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 
-import "../styles/normalize.css"
-import "../styles/skeleton.css"
-import "../styles/hamburgers.css"
-import "../styles/globals.css";
+import "@/styles/normalize.css"
+import "@/styles/skeleton.css"
+import "@/styles/hamburgers.css"
+import "@/styles/globals.css";
 
-import Navbar from "@/components/navbar";
+import Navbar from "@/components/general/navbar";
 
 export const metadata: Metadata = {
     title: "Apollo Club",

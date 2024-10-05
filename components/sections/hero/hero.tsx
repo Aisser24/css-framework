@@ -1,7 +1,7 @@
 import Image from "next/image"
-import Hero_img from "../images/Hero_img.webp"
-import Hero_BG from "../images/Hero_BG.webp"
-import Button from "./button"
+import Hero_img from "@/images/Hero_img.webp"
+import Hero_BG from "@/images/Hero_BG.webp"
+import Button from "@/components/general/button"
 
 const Hero = () => {
     return (

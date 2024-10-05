@@ -1,14 +1,14 @@
-import Hero from "@/components/hero"
-import Banner from "@/components/banner"
-import Offer from "@/components/offer"
+import Hero from "@/components/sections/hero/hero"
+import Banner from "@/components/general/banner"
+import Offer from "@/components/sections/reccomendations/offer"
 import bitterRootFront from "@/images/bitter-root/bitter-root-front.webp"
 import bitterRootPage from "@/images/bitter-root/bitter-root-page.webp"
 import bitterRootBack from "@/images/bitter-root/bitter-root-back.webp"
 import tokyoGhostFront from "@/images/tokyo-ghost/tokyo-ghost-front.webp"
 import tokyoGhostPage from "@/images/tokyo-ghost/tokyo-ghost-page.webp"
 import tokyoGhostBack from "@/images/tokyo-ghost/tokyo-ghost-back.webp"
-import CreatorsCorner from "@/components/creatorsCorner"
-import Footer from "@/components/footer"
+import CreatorsCorner from "@/components/sections/creatorsCorner/creatorsCorner"
+import Footer from "@/components/general/footer"
 
 const Page = () => {
     return (

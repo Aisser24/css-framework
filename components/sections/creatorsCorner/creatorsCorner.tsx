@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { useState, useEffect } from 'react'
-import CCPost from "@/components/ccPost"
+import CCPost from "@/components/sections/creatorsCorner/ccPost"
 import post1 from "@/images/CreatorsCorner/post1/post1.3.webp"
 import post2 from "@/images/CreatorsCorner/post2/post2.webp"
 import post3 from "@/images/CreatorsCorner/post3/post3.2.webp"

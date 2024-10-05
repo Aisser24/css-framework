@@ -3,7 +3,7 @@
 import { StaticImport } from 'next/dist/shared/lib/get-img-props'
 import Image from 'next/image'
 import React from 'react'
-import Button from './button'
+import Button from '@/components/general/button'
 
 const Offer = ({ 
     frontImg, 
