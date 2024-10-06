@@ -35,11 +35,8 @@ const Offer = ({
     }) => {
     const [active, setActive] = React.useState(0);
 
-    function handleActivation(item:number) {
+    function setActiveItem(item:number) {
         setActive(item)
-    }
-    function handleLeave() {
-        setActive(0);
     }
 
     return (
@@ -61,8 +58,8 @@ const Offer = ({
                                     width={386}
                                     height={594}
                                     alt={frontImgAlt}
-                                    onMouseOver={() => handleActivation(2)}
-                                    onMouseLeave={handleLeave}
+                                    onMouseOver={() => setActiveItem(2)}
+                                    onMouseLeave={() => setActiveItem(0)}
                                     className={`front ${active == 2 ? "active" : ""}`}
                                     style={{
                                         width: "60%",
@@ -76,8 +73,8 @@ const Offer = ({
                                     width={386}
                                     height={594}
                                     alt={backImgAlt}
-                                    onMouseOver={() => handleActivation(3)}
-                                    onMouseLeave={handleLeave}
+                                    onMouseOver={() => setActiveItem(3)}
+                                    onMouseLeave={() => setActiveItem(0)}
                                     className={`dark ${active == 3 ? "active" : ""}`}
                                     style={{
                                         width: "50%",
@@ -92,8 +89,8 @@ const Offer = ({
                                     width={386}
                                     height={594}
                                     alt={pageImgAlt}
-                                    onMouseOver={() => handleActivation(1)}
-                                    onMouseLeave={handleLeave}
+                                    onMouseOver={() => setActiveItem(1)}
+                                    onMouseLeave={() => setActiveItem(0)}
                                     className={`dark ${active == 1 ? "active" : ""}`}
                                     style={{
                                         width: "50%",
@@ -110,17 +107,17 @@ const Offer = ({
                                 <button
                                     aria-label="selector-page-image"
                                     className={`indicator ${active == 1 ? "active" : ""}`}
-                                    onClick={() => handleActivation(1)} 
+                                    onClick={() => setActiveItem(1)} 
                                 ></button>
                                 <button
                                     aria-label="selector-front-image"
                                     className={`indicator ${active == 2 ? "active" : ""}`}
-                                    onClick={() => handleActivation(2)}
+                                    onClick={() => setActiveItem(2)}
                                 ></button>
                                 <button
                                     aria-label="selector-back-image"
                                     className={`indicator ${active == 3 ? "active" : ""}`}
-                                    onClick={() => handleActivation(3)}
+                                    onClick={() => setActiveItem(3)}
                                 ></button>
                             </div>
                         </div>
@@ -216,8 +213,8 @@ const Offer = ({
                                     width={386}
                                     height={594}
                                     alt={frontImgAlt}
-                                    onMouseOver={() => handleActivation(2)}
-                                    onMouseLeave={handleLeave}
+                                    onMouseOver={() => setActiveItem(2)}
+                                    onMouseLeave={() => setActiveItem(0)}
                                     className={`front ${active == 2 ? "active" : ""}`}
                                     style={{
                                         width: "60%",
@@ -231,8 +228,8 @@ const Offer = ({
                                     width={386}
                                     height={594}
                                     alt={backImgAlt}
-                                    onMouseOver={() => handleActivation(3)}
-                                    onMouseLeave={handleLeave}
+                                    onMouseOver={() => setActiveItem(3)}
+                                    onMouseLeave={() => setActiveItem(0)}
                                     className={`dark ${active == 3 ? "active" : ""}`}
                                     style={{
                                         width: "50%",
@@ -247,8 +244,8 @@ const Offer = ({
                                     width={386}
                                     height={594}
                                     alt={pageImgAlt}
-                                    onMouseOver={() => handleActivation(1)}
-                                    onMouseLeave={handleLeave}
+                                    onMouseOver={() => setActiveItem(1)}
+                                    onMouseLeave={() => setActiveItem(0)}
                                     className={`dark ${active == 1 ? "active" : ""}`}
                                     style={{
                                         width: "50%",
@@ -265,17 +262,17 @@ const Offer = ({
                                 <button
                                     aria-label="selector-page-image"
                                     className={`indicator ${active == 1 ? "active" : ""}`}
-                                    onClick={() => handleActivation(1)} 
+                                    onClick={() => setActiveItem(1)} 
                                 ></button>
                                 <button
                                     aria-label="selector-front-image"
                                     className={`indicator ${active == 2 ? "active" : ""}`}
-                                    onClick={() => handleActivation(2)}
+                                    onClick={() => setActiveItem(2)}
                                 ></button>
                                 <button
                                     aria-label="selector-back-image"
                                     className={`indicator ${active == 3 ? "active" : ""}`}
-                                    onClick={() => handleActivation(3)}
+                                    onClick={() => setActiveItem(3)}
                                 ></button>
                             </div>
                         </div>

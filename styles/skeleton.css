@@ -138,7 +138,7 @@ body {
   line-height: 125%;
   font-weight: 400;
   font-family: "Vazirmatn", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #222; }
+  color: var(--text); }
 
 
 /* Typography
@@ -474,7 +474,7 @@ code {
   font-size: 90%;
   white-space: nowrap;
   background: var(--background-800);
-  border: 1px solid #E1E1E1;
+  border: 1px solid var(--text);
   border-radius: 4px; }
 pre > code {
   display: block;
