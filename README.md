@@ -6,13 +6,20 @@ This repository contains a CSS framework project built with Next.js, bootstrappe
 
 To get started with the development server, run the following command:
 
-npm run dev
+`npm run dev`
+
 **or**
-yarn dev
+
+`yarn dev`
+
 **or**
-pnpm dev
+
+`pnpm dev`
+
 **or**
-bun dev
+
+`bun dev`
+
 Then, open http://localhost:3000 in your browser to see the result.
 
 You can start editing the page by modifying app/page.tsx. The page will auto-update as you make changes.
