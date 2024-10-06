@@ -7,11 +7,11 @@ This repository contains a CSS framework project built with Next.js, bootstrappe
 To get started with the development server, run the following command:
 
 npm run dev
-# or
+**or**
 yarn dev
-# or
+**or**
 pnpm dev
-# or
+**or**
 bun dev
 Then, open http://localhost:3000 in your browser to see the result.
 
