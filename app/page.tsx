@@ -33,9 +33,9 @@ const Page = () => {
                 <p>
                     Once known as the greatest monster hunters of all time, the Sangerye family specialized in curing the souls of those infected by hate. But those days are fading. A terrible tragedy has claimed most of the family, leaving the surviving cousins divided between by the desire to cure monsters or to kill them. Now, though, there&apos;s a new breed of monster loose on the streets of Harlem, and the Sangerye family must either come together or watch the human race fall to untold evil.
                 </p>
-                <strong>
-                    Collects BITTER ROOT #1-5.
-                </strong>
+                <p>
+                    Collects <strong>BITTER ROOT #1-5.</strong>
+                </p>
             </Offer>
             <Banner direction="l">
                 <h2 style={{textAlign: "right"}}>Weekly Recommended</h2>
@@ -56,9 +56,9 @@ const Page = () => {
                 <p>
                     The Isles of Los Angeles 2089: Humanity is addicted to technology. Getting a virtual buzz is the only thing left to live for, and gangsters run it all. And who do these gangsters turn to when they need their rule enforced? Constables Led Dent and Debbie Decay are about to be given a job that will force them out of the familiar squalor of LA and into the last tech-less country on Earth: The Garden Nation of Tokyo.
                 </p>
-                <strong>
-                    Collects TOKYO GHOST #1-10.
-                </strong>
+                <p>
+                    Collects <strong>TOKYO GHOST #1-10.</strong>
+                </p>
             </Offer>
             <CreatorsCorner/>
             <Footer/>
