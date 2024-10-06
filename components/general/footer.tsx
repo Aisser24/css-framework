@@ -92,7 +92,7 @@ const Footer = () => {
                             alt='TikTok Logo'
                         />
                     </Link>
-                    <Link href="https://www.youtube.com" passHref className='footer-social' target='_blank'>
+                    <Link href="https://www.youtube.com/watch?v=xvFZjo5PgG0" passHref className='footer-social' target='_blank'>
                         <Image 
                             src={youtube}
                             width={50}
