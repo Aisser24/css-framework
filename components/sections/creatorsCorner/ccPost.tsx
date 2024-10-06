@@ -84,7 +84,7 @@ const CCPost = (
                 {cardTitle}
             </h3>
             <p className='card-text'>
-                {cardContent}
+                {cardContent.length > 80 ? `${cardContent.substring(0, 80)}...` : cardContent}
             </p>
         </div>
     </a>
